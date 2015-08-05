@@ -11,3 +11,4 @@
 !*/
 # ...AND sublime-related contents.
 !*/**/*.sublime-*
+# For new folders with sublime-related files nested more than one level deep, you'll have to add the folder from the command line before the files will appear as tracked. (This confused SourceTree, and therefore me)
