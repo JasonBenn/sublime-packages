@@ -1,4 +1,13 @@
+# Ignore everything...
 *
 
-!.gitignore
-!todo.md
+# ...but unignore:
+
+# Leading slash means only at the top level
+!/.gitignore
+!/todo.md
+
+# All folders...
+!*/
+# ...AND sublime-related contents.
+!*/**/*.sublime-*
