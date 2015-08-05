@@ -1,0 +1,34 @@
+<snippet>
+    <content><![CDATA[
+SET search_path = ${1:SCHEMA}, pg_catalog;
+
+CREATE OR REPLACE FUNCTION ${2:NAME(PARAM)} RETURNS ${3:RETURN_TYPE}
+    LANGUAGE plpgsql VOLATILE SECURITY INVOKER
+    AS \$_\$
+/*  Function:     ${1:SCHEMA}.${2:NAME(PARAM)}
+    Description:  ${4:DESCRIPTION}
+    Affects:      ${5}
+    Arguments:    ${6}
+    Returns:      ${3:RETURN_TYPE}
+*/
+DECLARE
+    ${0}
+BEGIN
+EXCEPTION
+    WHEN OTHERS THEN RETURN NULL;
+END;
+\$_\$;
+
+
+ALTER FUNCTION ${1:SCHEMA}.${2:NAME(PARAM)} OWNER TO postgres;
+
+COMMENT ON FUNCTION ${2:NAME(PARAM)} IS 'DR: ${4:DESCRIPTION} (${7:DATE})';
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>functionplpgonly</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.pgsql</scope>
+    <!-- Optional: Set displayed description of snippet -->
+    <description>Create PLPGSQL Function (brief)</description>
+</snippet>
