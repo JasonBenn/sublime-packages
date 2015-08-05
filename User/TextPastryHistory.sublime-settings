@@ -1,0 +1,791 @@
+{
+	"history":
+	[
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1..3"
+				},
+				"command": "text_pastry_step",
+				"text": "1..3"
+			},
+			"key": "81421ecc3978d4bd3f76db93844d647e",
+			"label": "1..3"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "range 1..3",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "range 1..3"
+			},
+			"key": "09e9f9f97423fa1efbcf3e8f6e1c5d4b",
+			"label": "range 1..3"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "1",
+					"stop": "3"
+				},
+				"command": "text_pastry_range",
+				"text": "range 1 3"
+			},
+			"key": "130a99253cb9a923496493001492cc34",
+			"label": "range 1 3"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "range 1 6 ",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "range 1 6 "
+			},
+			"key": "edd73f24bed66f1a94dbad4b4abce8dc",
+			"label": "range 1 6 "
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "1",
+					"step": "2",
+					"stop": "6"
+				},
+				"command": "text_pastry_range",
+				"text": "range 1 6 2"
+			},
+			"key": "946511322c096599d58d324aff7a138a",
+			"label": "range 1 6 2"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "1",
+					"step": "2",
+					"stop": "500"
+				},
+				"command": "text_pastry_range",
+				"text": "range 1 500 2"
+			},
+			"key": "d00b46fa6b0a86fab4d3eae32f88e8cc",
+			"label": "range 1 500 2"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "1",
+					"step": "5",
+					"stop": "300"
+				},
+				"command": "text_pastry_range",
+				"text": "range 1 300 5"
+			},
+			"key": "251dfbc393256fb6eb17805acbe42765",
+			"label": "range 1 300 5"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "1",
+					"step": "2",
+					"stop": "1"
+				},
+				"command": "text_pastry_range",
+				"text": "range 1 1 2"
+			},
+			"key": "e854f17d4f7a2fecd030b8dcfb042155",
+			"label": "range 1 1 2"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "2..8"
+				},
+				"command": "text_pastry_step",
+				"text": "2..8"
+			},
+			"key": "3c00db65b13f9a39666a69fb84b2f0e0",
+			"label": "2..8"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "2",
+					"stop": "8"
+				},
+				"command": "text_pastry_range",
+				"text": "range 2 8"
+			},
+			"key": "a937a745938021e2a6c5817860664a12",
+			"label": "range 2 8"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "1",
+					"stop": "8"
+				},
+				"command": "text_pastry_range",
+				"text": "range 1 8"
+			},
+			"key": "de09c2fda8ac95deaef55758228c1657",
+			"label": "range 1 8"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "1",
+					"stop": "4"
+				},
+				"command": "text_pastry_range",
+				"text": "range 1 4"
+			},
+			"key": "1e8d66f70fcf09619d753d2d00b080d1",
+			"label": "range 1 4"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "0",
+					"stop": "3"
+				},
+				"command": "text_pastry_range",
+				"text": "range 0 3"
+			},
+			"key": "cfde2f3e900862361503fa49245f9c2e",
+			"label": "range 0 3"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\\n"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \\n"
+			},
+			"key": "113c567b57202198f2ec3e887f30d140",
+			"label": "filter \\n"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "date * 5",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "date * 5"
+			},
+			"key": "ec1e9f5523b25ccb025814a68c270d2f",
+			"label": "date * 5"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": ""
+				},
+				"command": "text_pastry_date_range",
+				"text": "days"
+			},
+			"key": "44fdec47036f482b68b748f9d786801b",
+			"label": "days"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "*5"
+				},
+				"command": "text_pastry_date_range",
+				"text": "days*5"
+			},
+			"key": "36acc4c461d255fea65f69e2965d4bb1",
+			"label": "days*5"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "* 5"
+				},
+				"command": "text_pastry_date_range",
+				"text": "days * 5"
+			},
+			"key": "400cd45cdc405b25f2ca02d3fc44943b",
+			"label": "days * 5"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"repeat": "5",
+					"text": ""
+				},
+				"command": "text_pastry_date_range",
+				"text": "days x5"
+			},
+			"key": "7929f17a96797adfe71aad1762e112bc",
+			"label": "days x5"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": null,
+					"operator": null,
+					"pattern": "#"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "find #"
+			},
+			"key": "7d4c898c6871ed88d44d8568781e19a2",
+			"label": "find #"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": null,
+					"operator": null,
+					"pattern": "#.+\\n\\n"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "find #.+\\n\\n"
+			},
+			"key": "9db9107f6f857d1ed08a8150797cd4a3",
+			"label": "find #.+\\n\\n"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": null,
+					"operator": null,
+					"pattern": "/#.+\\n\\n/m"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "find /#.+\\n\\n/m"
+			},
+			"key": "3e9c99beda63ccb545fd22beb2897f52",
+			"label": "find /#.+\\n\\n/m"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\\w+"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \\w+"
+			},
+			"key": "0e3ebcda7e2a46e816136f98ad808fba",
+			"label": "filter \\w+"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": null,
+					"operator": null,
+					"pattern": "\\n\\n"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "find \\n\\n"
+			},
+			"key": "0b83d89ff85bf40739307514fec1cad1",
+			"label": "find \\n\\n"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "file",
+					"operator": "add",
+					"pattern": "\\n\\n"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "add \\n\\n"
+			},
+			"key": "5a93213ea5174cad8ac45a2c744cc4d0",
+			"label": "add \\n\\n"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\"$.*\\n\\n"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \"$.*\\n\\n"
+			},
+			"key": "ff8490640cd3c66b1837ddbb8c2132d6",
+			"label": "filter \"$.*\\n\\n"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\\n\\n"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \\n\\n"
+			},
+			"key": "0c596801efc08b14893df6950f4f1820",
+			"label": "filter \\n\\n"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\"$"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \"$"
+			},
+			"key": "ee5f7fa0986817a88a83c5aaa4a4bc45",
+			"label": "filter \"$"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\"\\n"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \"\\n"
+			},
+			"key": "aaa676f1ca0efda58e8d01d3f737b9b5",
+			"label": "filter \"\\n"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\"\\n.*\\n\\n"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \"\\n.*\\n\\n"
+			},
+			"key": "ad7d517a522fc8151dd7189e2a21068d",
+			"label": "filter \"\\n.*\\n\\n"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\"\\n(.*\\n)\\n"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \"\\n(.*\\n)\\n"
+			},
+			"key": "b03d18a014b724f2209daceb389a06f8",
+			"label": "filter \"\\n(.*\\n)\\n"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\"\\n(.*)\\n\\n"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \"\\n(.*)\\n\\n"
+			},
+			"key": "cf3f280db3675a6a655178bf4369ce00",
+			"label": "filter \"\\n(.*)\\n\\n"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\"\\\"\\n(.*)\\n\\n\"m"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \"\\\"\\n(.*)\\n\\n\"m"
+			},
+			"key": "8083a962cfe351c0ab6ff22e29756024",
+			"label": "filter \"\\\"\\n(.*)\\n\\n\"m"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\"\\\"\\n(.*)\\n\\n\" multiline"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \"\\\"\\n(.*)\\n\\n\" multiline"
+			},
+			"key": "c72ac8d608e1acb1a5b17930baea6a28",
+			"label": "filter \"\\\"\\n(.*)\\n\\n\" multiline"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\"\\\"\\n(.*)\\n\\n\"M"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \"\\\"\\n(.*)\\n\\n\"M"
+			},
+			"key": "73dc4b336e924d194a6a69feb102998d",
+			"label": "filter \"\\\"\\n(.*)\\n\\n\"M"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\"\\\"\\n(.*)\\n\\n\", M"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \"\\\"\\n(.*)\\n\\n\", M"
+			},
+			"key": "bcb4ae8ee3582a3058c818c48a795196",
+			"label": "filter \"\\\"\\n(.*)\\n\\n\", M"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\"\\\"\\n([.\\n]*)\\n\\n\""
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \"\\\"\\n([.\\n]*)\\n\\n\""
+			},
+			"key": "2911e3453505673938ff0dbe931fb0e7",
+			"label": "filter \"\\\"\\n([.\\n]*)\\n\\n\""
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\"\\\"\\n(.*)\\n\\n\""
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \"\\\"\\n(.*)\\n\\n\""
+			},
+			"key": "53c5e054067f0a72dd94e242604a5f64",
+			"label": "filter \"\\\"\\n(.*)\\n\\n\""
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\"\\\"\\n(.*\\n)\\n\\n\""
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \"\\\"\\n(.*\\n)\\n\\n\""
+			},
+			"key": "8b417d3cc7aac5d48c0ad49b69181fcf",
+			"label": "filter \"\\\"\\n(.*\\n)\\n\\n\""
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\"\\\"\\n(\\n.*)\\n\\n\""
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \"\\\"\\n(\\n.*)\\n\\n\""
+			},
+			"key": "802ef8f394bc404c3e789ad5715d1be6",
+			"label": "filter \"\\\"\\n(\\n.*)\\n\\n\""
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\"\\\"\\n(.*)\\n\""
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \"\\\"\\n(.*)\\n\""
+			},
+			"key": "159e35f516e1621518f9919bc8697bfd",
+			"label": "filter \"\\\"\\n(.*)\\n\""
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\\n[^\"]"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \\n[^\"]"
+			},
+			"key": "9c66580286cff2d832712bec2db8e17e",
+			"label": "filter \\n[^\"]"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "[^\"]\\n([^\"])"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter [^\"]\\n([^\"])"
+			},
+			"key": "125883284d97eed84eea12291fba0af1",
+			"label": "filter [^\"]\\n([^\"])"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "^\\\""
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter ^\\\""
+			},
+			"key": "195d0af79b225382f96a8c9e08d389d4",
+			"label": "filter ^\\\""
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "^\""
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter ^\""
+			},
+			"key": "c35eb7a8e77888952bdd4b60884457df",
+			"label": "filter ^\""
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\\n\""
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \\n\""
+			},
+			"key": "7ec6928b050c19e31e2390df475ea674",
+			"label": "filter \\n\""
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "#.*\\n\\n"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter #.*\\n\\n"
+			},
+			"key": "754cb56c0bde714be43c4817e973cf08",
+			"label": "filter #.*\\n\\n"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "1",
+					"stop": "5"
+				},
+				"command": "text_pastry_range",
+				"text": "range 1 5"
+			},
+			"key": "ad20054fd028e33902212efb1921f77e",
+			"label": "range 1 5"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "i"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter i"
+			},
+			"key": "169071d111a1557055de3098008b588e",
+			"label": "filter i"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\\si\\s"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \\si\\s"
+			},
+			"key": "a77e6a26aef3ceff949a094c2ab7eff1",
+			"label": "filter \\si\\s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\\s(i)\\s"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \\s(i)\\s"
+			},
+			"key": "7309a66fd8d7c9f3a7844eb599fd7481",
+			"label": "filter \\s(i)\\s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "2"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter 2"
+			},
+			"key": "3bdb161e49d81aee96ddccf2bdb15354",
+			"label": "filter 2"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\\d"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \\d"
+			},
+			"key": "c69806285a458859d938b71dbd2802d2",
+			"label": "filter \\d"
+		}
+	],
+	"last_command":
+	{
+		"args":
+		{
+			"context": "selection",
+			"operator": null,
+			"pattern": "\\d"
+		},
+		"command": "text_pastry_modify_selection",
+		"text": "filter \\d"
+	}
+}

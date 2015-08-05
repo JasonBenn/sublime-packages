@@ -1,0 +1,36 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"Autoprefixer",
+		"Babel",
+		"Babel Snippets",
+		"Case Conversion",
+		"Chain of Command",
+		"ColorPicker",
+		"DashDoc",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"LESS",
+		"nginx",
+		"Package Control",
+		"PackageResourceViewer",
+		"PgSQL",
+		"Postgres PL pgSQL",
+		"PostgreSQL Syntax Highlighting",
+		"Pretty JSON",
+		"RegReplace",
+		"Ruby Hash Converter",
+		"Sass",
+		"ScopeHunter",
+		"Select Quoted",
+		"SideBarEnhancements",
+		"Text Pastry",
+		"TrailingSpaces"
+	]
+}
