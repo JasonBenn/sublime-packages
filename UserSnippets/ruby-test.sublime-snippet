@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+require_relative 'tiny_test_framework'
+
+assert(true, true, 'test')
+
+# watch "clear && date && ruby ${0:example}.rb"
+]]></content>
+    <tabTrigger>test</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>require_relative 'tiny_test_framework'</description>
+</snippet>
