@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-import 'test' from 'tape'
+import test from 'tape'
 test('${1:something}', (t) => {${2:
   let testCases = [
     [${3}],
