@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+import ${1:example} from '${2:./${3:}}${1:example}'
+
+]]></content>
+    <tabTrigger>imp</tabTrigger>
+    <scope>source.js</scope>
+    <description>import thing from 'thing'</description>
+</snippet>
