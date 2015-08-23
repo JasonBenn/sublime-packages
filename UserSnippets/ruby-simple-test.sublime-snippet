@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+def assert(actual, expected, blurb = nil)
+  puts actual == expected ? "✓" : "✗ #{blurb}"
+end
+
+[
+  [${1:true, true}]
+].each { |actual, expected| assert(true, true, 'test') }
+
+]]></content>
+    <tabTrigger>assert</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>def assert(actual, expected, blurb)</description>
+</snippet>
