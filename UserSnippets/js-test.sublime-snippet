@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-import test from 'tape'
-
 if (require.main === module) {
-  test('${1:something}', (t) => {${2:
+  const test = require('tape')
+
+  test('${1:something}', t => {${2:
     let testCases = [
       [${3}],
     ]
@@ -14,7 +14,7 @@ if (require.main === module) {
     \})
   }})
 }
-${8:watch "clear && date && babel-node --stage 0 ${7:example}.js"}
+// ${8:watch "clear && date && babel-node --stage 0 ${7:example}.js"}
 ]]></content>
     <tabTrigger>test</tabTrigger>
     <scope>source.js</scope>

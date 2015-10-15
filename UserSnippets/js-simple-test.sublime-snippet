@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+test('${1:something}', t => {
+  let testCases = [
+    [${3}],
+  ]
+
+  t.plan(testCases.length)
+  testCases.forEach(([${4:testCase}]) => {
+    t.equals(${6:testCase})
+  \})
+})
+]]></content>
+    <tabTrigger>simple-test</tabTrigger>
+    <scope>source.js</scope>
+    <description>import 'test' from 'tape'</description>
+</snippet>
