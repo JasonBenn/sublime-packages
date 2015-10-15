@@ -1,12 +1,15 @@
 <snippet>
     <content><![CDATA[
 import React from 'react';
+import PureComponent from 'react-pure-render/component'
 
-export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} extends React.Component {
+export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} extends PureComponent {
 	render() {
-		return ${2:(
-			${3:<div>${0}</div>}
-		)}
+		return (
+			<div>
+        ${0}
+      </div>
+		)
 	}
 }
 
