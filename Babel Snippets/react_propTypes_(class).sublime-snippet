@@ -1,25 +1,27 @@
 <snippet>
     <content><![CDATA[
+const { any, array, arrayOf, bool, element, func, instanceOf, node, number, object, objectOf, oneOf, oneOfType, shape, string } = React.PropTypes
+
 static propTypes = {${1:
-  optionalArray: React.PropTypes.array,
-  optionalBool: React.PropTypes.bool,
-  optionalFunc: React.PropTypes.func,
-  optionalNumber: React.PropTypes.number,
-  optionalObject: React.PropTypes.object,
-  optionalString: React.PropTypes.string,
-  optionalNode: React.PropTypes.node,
-  optionalElement: React.PropTypes.element,
-  optionalKlass: React.PropTypes.instanceOf(Klass),
-  optionalEnum: React.PropTypes.oneOf(['News', 'Photos']),
-  optionalUnion: React.PropTypes.oneOfType([React.PropTypes.string, React.PropTypes.number]),
-  optionalArrayOf: React.PropTypes.arrayOf(React.PropTypes.number),
-  optionalObjectOf: React.PropTypes.objectOf(React.PropTypes.number),
-  optionalObjectWithShape: React.PropTypes.shape({
-    color: React.PropTypes.string, 
-    fontSize: React.PropTypes.number
+  optionalArray: array,
+  optionalBool: bool,
+  optionalFunc: func,
+  optionalNumber: number,
+  optionalObject: object,
+  optionalString: string,
+  optionalNode: node,
+  optionalElement: element,
+  optionalKlass: instanceOf(Klass),
+  optionalEnum: oneOf(['News', 'Photos']),
+  optionalUnion: oneOfType([string, number]),
+  optionalArrayOf: arrayOf(number),
+  optionalObjectOf: objectOf(number),
+  optionalObjectWithShape: shape({
+    color: string,
+    fontSize: number
   \}),
-  requiredFunc: React.PropTypes.func.isRequired,
-  requiredAny: React.PropTypes.any.isRequired,
+  requiredFunc: func.isRequired,
+  requiredAny: any.isRequired,
   customProp: function(props, propName, componentName) {
     if (!/matchme/.test(props[propName])) {
       return new Error('Validation failed!');
