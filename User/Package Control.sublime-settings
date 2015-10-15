@@ -1,9 +1,12 @@
 {
+	"bootstrapped": true,
+	"ignore_vcs_packages": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
+		"3024 Color Scheme",
 		"AdvancedNewFile",
 		"All Autocomplete",
 		"Autoprefixer",
@@ -13,9 +16,12 @@
 		"Chain of Command",
 		"ColorPicker",
 		"DashDoc",
+		"Dockerfile Syntax Highlighting",
+		"Elm Language Support",
 		"Emmet",
 		"Git",
 		"GitGutter",
+		"Homebrew-formula-syntax",
 		"LESS",
 		"nginx",
 		"Package Control",

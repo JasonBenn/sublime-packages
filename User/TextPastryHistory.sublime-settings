@@ -317,21 +317,6 @@
 			{
 				"args":
 				{
-					"context": "selection",
-					"operator": null,
-					"pattern": "\\w+"
-				},
-				"command": "text_pastry_modify_selection",
-				"text": "filter \\w+"
-			},
-			"key": "0e3ebcda7e2a46e816136f98ad808fba",
-			"label": "filter \\w+"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"context": null,
 					"operator": null,
 					"pattern": "\\n\\n"
@@ -768,6 +753,155 @@
 				{
 					"context": "selection",
 					"operator": null,
+					"pattern": "\\w"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \\w"
+			},
+			"key": "b6b0471939bfc01bb8e6e1579783f4d9",
+			"label": "filter \\w"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "2",
+					"stop": "7"
+				},
+				"command": "text_pastry_range",
+				"text": "range 2 7"
+			},
+			"key": "09c361576df6cb38724338a33a16dd05",
+			"label": "range 2 7"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\\w[?^,]"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \\w[?^,]"
+			},
+			"key": "451a7ea76715739a5bf8955e2ade16ff",
+			"label": "filter \\w[?^,]"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\\s[^,\\s]"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \\s[^,\\s]"
+			},
+			"key": "a60a41ce1e8fcc5b0a0be9c453407334",
+			"label": "filter \\s[^,\\s]"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\\s"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \\s"
+			},
+			"key": "26b99d1b10e2a95284b66dd54777b505",
+			"label": "filter \\s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\\s(?<=,)\\s"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \\s(?<=,)\\s"
+			},
+			"key": "ae18501489b3cae26f1179556e30e454",
+			"label": "filter \\s(?<=,)\\s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\\w+"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \\w+"
+			},
+			"key": "0e3ebcda7e2a46e816136f98ad808fba",
+			"label": "filter \\w+"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "(?<!\\,)\\s"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter (?<!\\,)\\s"
+			},
+			"key": "cd56f2b86899d695fca1b0541e61d2fb",
+			"label": "filter (?<!\\,)\\s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "(?<=,)\\s"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter (?<=,)\\s"
+			},
+			"key": "8fd4bdd268d7cdca393ddb99d923d9fb",
+			"label": "filter (?<=,)\\s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "(?<!,)\\s"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter (?<!,)\\s"
+			},
+			"key": "ff8734b00814dec6d4cf82c53fdc500c",
+			"label": "filter (?<!,)\\s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
 					"pattern": "\\d"
 				},
 				"command": "text_pastry_modify_selection",
@@ -775,17 +909,58 @@
 			},
 			"key": "c69806285a458859d938b71dbd2802d2",
 			"label": "filter \\d"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "range a..z",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "range a..z"
+			},
+			"key": "5c9b29a1e4832bbf1e261878b2508f38",
+			"label": "range a..z"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "range a,z",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "range a,z"
+			},
+			"key": "bde512bf85fe3371c0d2fe84c9619d10",
+			"label": "range a,z"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "range a z",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "range a z"
+			},
+			"key": "e4fa5af7423b9f0fddf29ac781c713b7",
+			"label": "range a z"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"context": "selection",
-			"operator": null,
-			"pattern": "\\d"
+			"text": "range a z",
+			"threshold": 3
 		},
-		"command": "text_pastry_modify_selection",
-		"text": "filter \\d"
+		"command": "text_pastry_insert_text",
+		"text": "range a z"
 	}
 }
